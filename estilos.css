@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   font-family: Zurich Light BT, sans-serif;
-  box-sizing: border-box;
 }
 
 body {
@@ -14,26 +13,31 @@ body {
   background-color: #0b2d84;
 }
 
-/* Header */
 header {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
 }
 
 .logo {
-  height: 85px;
-  width: auto;
+  padding-top: 1rem;
+  height: auto;
+  width: 250px;
 }
 
 .nav-list {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   padding: 1rem;
-  font-size: 20px;
+  font-size: 28px;
+  width: auto;
 }
 
 .nav-list li a {
@@ -46,59 +50,62 @@ header {
   font-weight: bold;
 }
 
-/* Main */
 main {
   text-shadow: 0 0 5px black;
   padding: 10px;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: bold;
+  text-align: center;
   padding: 10px;
 }
 
 .inicio {
   display: flex;
+  text-align: center;
+  flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 .familia {
-  margin-left: 10px;
+  width: 100%;
   border-radius: 10px;
-  width: 526px;
+  width: 300px;
   height: auto;
 }
 
 #presentacion {
-  margin-left: 15px;
-  font-size: 35px;
+  margin-top: 10px;
+  font-size: 25px;
 }
 
-/* Footer */
 footer {
   display: inline-flex;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  height: 49px;
+  height: auto;
   background-color: white;
   padding: 0px;
   margin: 0px;
 }
 
 #redes a {
-  margin-right: 15px;
-  font-size: 40px;
-  float: right;
+  font-size: 30px;
   color: black;
 }
 
 .footer a {
   text-decoration: none;
   color: black;
-  font-size: 25px;
-  margin-left: 15px;
+  font-size: 28px;
+  gap: 1rem;
 }
 
 .footer a:hover {
@@ -111,7 +118,6 @@ footer {
   font-weight: bold;
 }
 
-/* Marca */
 .marca {
   padding: 10px;
 }
@@ -174,7 +180,6 @@ footer {
   height: auto;
 }
 
-/* Vehiculo */
 #elauto {
   padding: 10px;
   font-size: 40px;
@@ -220,7 +225,6 @@ footer {
   margin-right: 10px;
 }
 
-/* Versiones */
 #versiones {
   padding: 10px;
   font-size: 40px;
@@ -286,7 +290,6 @@ footer {
   margin-right: 10px;
 }
 
-/* Acerca De */
 label {
   color: white;
   margin-left: 15px;
@@ -302,232 +305,6 @@ input, textarea {
   margin-left: 15px;
   width: 750px;
   height: auto;
-}
-
-/* Media Queries Header y Footer*/
-@media screen and (max-width: 767px) {
-  header {
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 0px;
-  }
-  .logo {
-    display: inline-flex;
-    height: auto;
-    width: 400px;
-  }
-  .nav-list {
-    font-size: 28px;
-  }
-  footer {
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 0px;
-    margin: 0px;
-  }
-  #redes a {
-    font-size: 80px;
-  }
-  .footer a {
-    font-size: 50px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  header {
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 0px;
-  }
-  .logo {
-    display: inline-flex;
-    height: auto;
-    width: 650px;
-  }
-  .nav-list {
-    font-size: 40px;
-  }
-  footer {
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 0px;
-    margin: 0px;
-  }
-  #redes a {
-    font-size: 100px;
-  }
-  .footer a {
-    font-size: 70px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-  }
-  .logo {
-    height: 125px;
-    width: auto;
-  }
-  .nav-list {
-    font-size: 30px;
-  }
-}
-/* Media Queries Index */
-@media screen and (max-width: 767px) {
-  h1 {
-    font-size: 90px;
-    text-align: center;
-  }
-  .inicio {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 10px;
-  }
-  .familia {
-    width: 100%;
-    height: auto;
-  }
-  #presentacion {
-    padding: 10px;
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  h1 {
-    font-size: 110px;
-    text-align: center;
-  }
-  .inicio {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 10px;
-  }
-  .familia {
-    width: 100%;
-    height: auto;
-  }
-  #presentacion {
-    padding: 10px;
-    font-size: 22px;
-  }
-}
-/* Media Queries Marca */
-@media screen and (max-width: 767px) {
-  .contenedor {
-    height: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-  }
-  .contenedor p {
-    font-size: 8px;
-  }
-  .marca h3 {
-    font-size: 18px;
-  }
-  .marca {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .marca p {
-    font-size: 8px;
-  }
-  .marca img {
-    width: 400px;
-  }
-  #fiatarg {
-    font-size: 10px;
-  }
-  .item1 img {
-    width: 100%;
-  }
-  .item2 img {
-    width: 100%;
-    height: auto;
-  }
-  .item3 img {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 767px) and (max-width: 1024px) {
-  .contenedor {
-    height: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-  }
-  .contenedor p {
-    font-size: 12px;
-  }
-  .marca h3 {
-    text-align: center;
-    font-size: 22px;
-  }
-  .marca {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .marca p {
-    font-size: 12px;
-  }
-  .marca img {
-    width: 500px;
-  }
-  #fiatarg {
-    font-size: 10px;
-  }
-  .item1 img {
-    width: 100%;
-  }
-  .item2 img {
-    width: 100%;
-    height: auto;
-  }
-  .item3 img {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .marca h3 {
-    font-size: 30px;
-  }
-  .marca p {
-    font-size: 18px;
-  }
-  .contenedor {
-    height: auto;
-    width: auto;
-  }
-  .contenedor p {
-    font-size: 15px;
-  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
