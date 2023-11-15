@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: Zurich Light BT, sans-serif;
+    height: auto;
 }
 
 // Variables
@@ -18,6 +19,7 @@ $color3: white;
 body{
     color: $color3;
     background-color: $color1;
+    height: auto;
 }
 
 // Header
@@ -64,7 +66,6 @@ header{
 
 main{
     text-shadow: 0 0 5px $color2;
-    padding: 10px;
 }
 
 h1{
@@ -135,24 +136,32 @@ footer{
 // Marca
 
 .marca{
-    padding: 10px;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.marca h3{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 30px;
+.marca h1{
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+.marca h2{
+    font-size: 38px;
     text-decoration: underline;
 }
 
 .marca p{
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     text-shadow: 5 5 5px $color2;
+    height: auto;
 }
 
 .marca img{
-    margin-bottom: 10px;
-    width: 320px;
+    width: 280px;
     height: auto;
 }
 
@@ -160,17 +169,23 @@ footer{
     text-decoration: underline;
     text-align: center;
     color: $color3;
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    width: auto;
 }
 
 .contenedor{
-    padding: 10px;
-    margin-bottom: 10px;
-    height: 370px;
+    height: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, auto);
     grid-gap: 10px;
+}
+
+.contenedor p{
+    padding: 10px;
+    font-size: 20px;
 }
 
 .item{
@@ -180,19 +195,19 @@ footer{
 
 .item1 img{
     border-radius: 10px;
-    width: 350px;
+    width: 290px;
     height: auto;
 }
 
 .item2 img{
     border-radius: 10px;
-    width: 350px;
-    height: 233px;
+    width: 290px;
+    height: auto;
 }
 
 .item3 img{
     border-radius: 10px;
-    width: 350px;
+    width: 290px;
     height: auto;
 }
 
