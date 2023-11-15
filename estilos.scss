@@ -315,7 +315,7 @@ input, textarea{
 
 /* Media Queries Header y Footer*/
 
-@media only screen and (min-width: 512px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     header{
         display: inline-flex;
         text-align: center;
@@ -357,7 +357,7 @@ input, textarea{
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
     header{
         display: inline-flex;
         text-align: center;
@@ -377,7 +377,7 @@ input, textarea{
     .nav-list{
         font-size: 40px;
     }
-
+    
     footer{
         display: inline-flex;
         text-align: center;
@@ -399,7 +399,7 @@ input, textarea{
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     header{
         display: flex;
         align-items: center;
@@ -421,7 +421,7 @@ input, textarea{
 
 /* Media Queries Index */
 
-@media only screen and (min-width: 512px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     h1{
         font-size: 90px;
         text-align: center;
@@ -446,7 +446,7 @@ input, textarea{
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
     h1{
         font-size: 110px;
         text-align: center;
@@ -473,7 +473,7 @@ input, textarea{
 
 /* Media Queries Marca */
 
-@media only screen and (min-width: 512px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .contenedor{
         height: auto;
         grid-template-columns: 1fr;
@@ -520,7 +520,7 @@ input, textarea{
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
     .contenedor{
         height: auto;
         grid-template-columns: 1fr;
@@ -568,7 +568,7 @@ input, textarea{
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .marca h3{
         font-size: 30px;
     }
@@ -581,7 +581,7 @@ input, textarea{
         height: auto;
         width: auto;
     }
-
+    
     .contenedor p{
         font-size: 15px;
     }
