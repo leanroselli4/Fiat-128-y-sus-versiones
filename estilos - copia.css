@@ -1,0 +1,588 @@
+@font-face {
+    font-family: Zurich Light BT;
+    src: url(Fonts/Zurich\ Light\ BT.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Zurich Light BT, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: #0b2d84;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.logo{
+    height: 85px;
+    width: auto;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover{
+    color: #0b2d84;
+    font-weight: bold;
+}
+
+
+/* Main */
+
+main{
+    text-shadow: 0 0 5px black;
+    padding: 10px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+}
+
+.familia{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 526px;
+    height: auto;
+}
+
+#presentacion{
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+/* Footer */
+
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 49px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#redes a{
+    margin-right: 15px;
+    font-size: 40px;
+    float: right;
+    color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.footer a:hover{
+    color: #0b2d84;
+    font-weight: bold;
+}
+
+#redes a:hover{
+    color: #0b2d84;
+    font-weight: bold;
+}
+
+/* Marca */
+
+.marca{
+    padding: 10px;
+}
+
+.marca h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.marca p{
+    font-size: 25px;
+    text-shadow: 5 5 5px black;
+}
+
+.marca img{
+    margin-bottom: 10px;
+    width: 320px;
+    height: auto;
+}
+
+#fiatarg{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.contenedor{
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 370px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.item{
+    align-items: center;
+    text-align: center;
+}
+
+.item1 img{
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}
+
+.item2 img{
+    border-radius: 10px;
+    width: 350px;
+    height: 233px;
+}
+
+.item3 img{
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}
+
+/* Vehiculo */
+
+#elauto{
+    padding: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.contenedor2{
+    padding: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 300px);
+    font-size: 23px;
+    grid-gap: 10px;
+}
+
+.itemm{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.fiat1 img{
+    border-radius: 10px;
+    width: auto;
+    height: 290px;
+    margin-right: 10px;
+}
+
+.fiat2 img{
+    border-radius: 10px;
+    width: auto;
+    height: 290px;
+    margin-left: 10px;
+}
+
+.fiat3 img{
+    border-radius: 10px;
+    width: auto;
+    height: 290px;
+    margin-right: 10px;
+}
+
+/* Versiones */
+
+#versiones{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.contenedor3{
+    margin-bottom: 10px;
+    padding: 15px;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 20px;
+    grid-gap: 10px;
+}
+
+.itemmm{
+    align-items: center;
+    text-align: center;
+}
+
+.version1 img{
+    border-radius: 10px;
+    height: 230px;
+}
+
+.version2 img{
+    border-radius: 10px;
+    height: 230px;
+}
+
+.version3 img{
+    border-radius: 10px;
+    height: 230px;
+}
+
+.contenedor4{
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+    grid-gap: 10px;
+}
+
+#videos{
+    margin-left: 10px;
+}
+
+.video{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.video1{
+    margin-right: 10px;
+}
+
+.video2{
+    margin-right: 10px;
+}
+
+/* Acerca De */
+
+label{
+    color:white;
+    margin-left: 15px;
+}
+
+input, textarea{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+#somos{
+    margin-left: 15px;
+    width: 750px;
+    height: auto;
+}
+
+/* Media Queries Header y Footer*/
+
+@media only screen and (max-width: 767px ) {
+    header{
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    .logo{
+        display: inline-flex;
+        height: auto;
+        width: 400px;
+    }
+    .nav-list{
+        font-size: 28px;
+    }
+    
+    footer{
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #redes a{
+        font-size: 80px;
+    }
+    
+    .footer a{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    header{
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    .logo{
+        display: inline-flex;
+        height: auto;
+        width: 650px;
+    }
+    .nav-list{
+        font-size: 40px;
+    }
+
+    footer{
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #redes a{
+        font-size: 100px;
+    }
+    
+    .footer a{
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color:rgb(255, 255, 255);
+    }
+    
+    .logo{
+        height: 125px;
+        width: auto;
+    }
+    
+    .nav-list{
+        font-size: 30px;
+    }
+    
+}
+
+/* Media Queries Index */
+
+@media only screen and (max-width: 767px ) {
+    h1{
+        font-size: 90px;
+        text-align: center;
+    }
+    
+    .inicio{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .familia{
+        width: 100%;
+        height: auto;
+    }
+    
+    #presentacion{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    h1{
+        font-size: 110px;
+        text-align: center;
+    }
+    
+    .inicio{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .familia{
+        width: 100%;
+        height: auto;
+    }
+    
+    #presentacion{
+        padding: 10px;
+        font-size: 22px;
+    }
+}
+
+/* Media Queries Marca */
+
+@media only screen and (max-width: 767px ) {
+    .contenedor{
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+    
+    .contenedor p{
+        font-size: 8px;
+    }
+    
+    .marca h3{
+        font-size: 18px;
+    }
+    
+    .marca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .marca p{
+        font-size: 8px;
+    }
+    
+    .marca img{
+        width: 400px;
+    }
+    
+    #fiatarg{
+        font-size: 10px;
+    }
+    
+    .item1 img{
+        width: 100%;
+    }
+    
+    .item2 img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .item3 img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .contenedor{
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+    
+    .contenedor p{
+        font-size: 12px;
+    }
+    
+    .marca h3{
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .marca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .marca p{
+        font-size: 12px;
+    }
+    
+    .marca img{
+        width: 500px;
+    }
+    
+    #fiatarg{
+        font-size: 10px;
+    }
+    
+    .item1 img{
+        width: 100%;
+    }
+    
+    .item2 img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .item3 img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .marca h3{
+        font-size: 30px;
+    }
+    
+    .marca p{
+        font-size: 18px;
+    }
+    
+    .contenedor{
+        height: auto;
+        width: auto;
+    }
+
+    .contenedor p{
+        font-size: 15px;
+    }
+}
