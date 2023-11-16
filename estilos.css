@@ -141,7 +141,7 @@ footer {
 }
 
 .marca img {
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
@@ -175,19 +175,19 @@ footer {
 
 .item1 img {
   border-radius: 10px;
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
 .item2 img {
   border-radius: 10px;
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
 .item3 img {
   border-radius: 10px;
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
@@ -219,85 +219,87 @@ footer {
 
 .fiat1 img {
   border-radius: 10px;
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
 .fiat2 img {
   border-radius: 10px;
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
 .fiat3 img {
   border-radius: 10px;
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
 #versiones {
   padding: 10px;
-  font-size: 40px;
+  font-size: 27px;
+  text-align: center;
 }
 
 .contenedor3 {
-  margin-bottom: 10px;
-  padding: 15px;
-  height: 500px;
+  height: auto;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  font-size: 20px;
-  grid-gap: 10px;
+  grid-template-columns: 1;
+  grid-template-rows: repeat 3, auto;
+  font-size: 15px;
 }
 
 .itemmm {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.itemmm p {
+  margin-top: 10px;
 }
 
 .version1 img {
   border-radius: 10px;
-  height: 230px;
+  width: 300px;
+  height: auto;
 }
 
 .version2 img {
   border-radius: 10px;
-  height: 230px;
+  width: 300px;
+  height: auto;
 }
 
 .version3 img {
   border-radius: 10px;
-  height: 230px;
+  width: 300px;
+  height: auto;
 }
 
 .contenedor4 {
-  margin-bottom: 30px;
-  padding: 10px;
-  height: 200px;
+  height: auto;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  font-size: 20px;
-  grid-gap: 10px;
+  grid-template-columns: 1;
+  grid-template-rows: repeat 2, auto;
+  font-size: 15px;
 }
 
 #videos {
+  text-align: center;
   margin-left: 10px;
 }
 
 .video {
-  display: inline-flex;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.video1 {
-  margin-right: 10px;
-}
-
-.video2 {
-  margin-right: 10px;
 }
 
 label {
