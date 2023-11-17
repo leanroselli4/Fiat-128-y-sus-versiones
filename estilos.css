@@ -71,7 +71,7 @@ h1 {
 .familia {
   width: 100%;
   border-radius: 10px;
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
@@ -333,6 +333,150 @@ label {
   padding: 10px;
   width: auto;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .logo {
+    display: flex;
+    height: auto;
+    width: 740px;
+  }
+  .nav-list {
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  footer {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  #redes a {
+    font-size: 70px;
+  }
+  .footer a {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  header {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+  }
+  .logo {
+    padding: 10px;
+    height: 100px;
+    width: auto;
+  }
+  .nav-list {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 1rem;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-list a:hover {
+    color: #0b2d84;
+    font-weight: bold;
+  }
+  footer {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  #redes a {
+    margin-right: 15px;
+    font-size: 30px;
+    float: right;
+  }
+  .footer a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  .footer a:hover {
+    color: #0b2d84;
+    font-weight: bold;
+  }
+  #redes a:hover {
+    color: #0b2d84;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+  .inicio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .familia {
+    width: 100%;
+    height: auto;
+  }
+  #presentacion {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  main {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .familia {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+  }
+  #presentacion {
+    margin-top: 0;
+    margin-left: 15px;
+    font-size: 3vw;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
