@@ -237,7 +237,7 @@ footer {
 
 #versiones {
   padding: 10px;
-  font-size: 27px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -247,7 +247,7 @@ footer {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: repeat 3, auto;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .itemmm {
@@ -286,12 +286,11 @@ footer {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: repeat 2, auto;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #videos {
   text-align: center;
-  margin-left: 10px;
 }
 
 .video {
@@ -300,6 +299,14 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.video1 iframe {
+  margin-bottom: 10px;
+}
+
+.video2 iframe {
+  margin-bottom: 10px;
 }
 
 label {
