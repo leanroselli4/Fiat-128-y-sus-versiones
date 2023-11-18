@@ -16,6 +16,32 @@ body {
   height: auto;
 }
 
+label {
+  color: white;
+  margin-left: 10px;
+}
+
+#formularios input, textarea {
+  padding: 10px;
+  width: auto;
+}
+
+#somos {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+#contacto {
+  font-size: 30px;
+}
+
+#formularios {
+  padding: 10px;
+  width: auto;
+  text-align: center;
+}
+
 header {
   display: inline-flex;
   align-items: center;
@@ -51,33 +77,6 @@ header {
 .nav-list a:hover {
   color: #0b2d84;
   font-weight: bold;
-}
-
-h1 {
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-}
-
-.inicio {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-}
-
-.familia {
-  width: 100%;
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
-}
-
-#presentacion {
-  margin-top: 10px;
-  font-size: 25px;
 }
 
 footer {
@@ -116,226 +115,7 @@ footer {
   font-weight: bold;
 }
 
-.marca {
-  margin-top: 10px;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.marca h1 {
-  font-size: 42px;
-  text-decoration: underline;
-}
-
-.marca h2 {
-  font-size: 38px;
-  text-decoration: underline;
-}
-
-.marca p {
-  padding: 10px;
-  font-size: 20px;
-  height: auto;
-}
-
-.marca img {
-  width: 300px;
-  height: auto;
-}
-
-#fiatarg {
-  text-decoration: underline;
-  text-align: center;
-  color: white;
-  font-size: 35px;
-  margin-bottom: 10px;
-  width: auto;
-}
-
-.contenedor {
-  height: auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat 3, auto;
-  grid-gap: 10px;
-}
-
-.contenedor p {
-  padding: 10px;
-  font-size: 20px;
-}
-
-.item {
-  align-items: center;
-  text-align: center;
-}
-
-.item1 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.item2 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.item3 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-#elauto {
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-.contenedor2 {
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat 3, auto;
-}
-
-.itemm {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.itemm p {
-  padding: 10px;
-  font-size: 20px;
-}
-
-.fiat1 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.fiat2 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.fiat3 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-#versiones {
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.contenedor3 {
-  height: auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: repeat 3, auto;
-  font-size: 20px;
-}
-
-.itemmm {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.itemmm p {
-  margin-top: 10px;
-}
-
-.version1 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.version2 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.version3 img {
-  border-radius: 10px;
-  width: 300px;
-  height: auto;
-}
-
-.contenedor4 {
-  height: auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: repeat 2, auto;
-  font-size: 20px;
-}
-
-#videos {
-  text-align: center;
-}
-
-.video {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.video1 iframe {
-  margin-bottom: 10px;
-}
-
-.video2 iframe {
-  margin-bottom: 10px;
-}
-
-label {
-  color: white;
-  margin-left: 10px;
-}
-
-#formularios input, textarea {
-  padding: 10px;
-  width: auto;
-}
-
-#somos {
-  width: auto;
-  height: auto;
-  padding: 10px;
-}
-
-#contacto {
-  font-size: 30px;
-}
-
-#formularios {
-  padding: 10px;
-  width: auto;
-  text-align: center;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
   header {
     display: flex;
     text-align: center;
@@ -373,7 +153,7 @@ label {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   header {
     width: 100%;
     display: inline-flex;
@@ -431,7 +211,34 @@ label {
     font-weight: bold;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.inicio {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.familia {
+  width: 100%;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+#presentacion {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
   h1 {
     font-size: 80px;
     text-align: center;
@@ -452,7 +259,7 @@ label {
     margin-bottom: 10px;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   main {
     padding: 10px;
   }
@@ -477,6 +284,408 @@ label {
     font-size: 3vw;
     height: auto;
   }
+}
+.marca {
+  margin-top: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.marca h1 {
+  font-size: 42px;
+  text-decoration: underline;
+}
+
+.marca h2 {
+  font-size: 38px;
+  text-decoration: underline;
+}
+
+.marca p {
+  padding: 10px;
+  font-size: 20px;
+  height: auto;
+}
+
+.marca img {
+  width: 80vw;
+  height: auto;
+}
+
+#fiatarg {
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.contenedor {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat 3, auto;
+  grid-gap: 10px;
+}
+
+.contenedor p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.item {
+  align-items: center;
+  text-align: center;
+}
+
+.item1 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.item2 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.item3 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .contenedor {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+  .contenedor p {
+    font-size: 25px;
+  }
+  .marca h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marca p {
+    font-size: 25px;
+  }
+  .marca img {
+    width: 500px;
+  }
+  #fiatarg {
+    font-size: 40px;
+  }
+  .item1 img {
+    width: 90%;
+  }
+  .item2 img {
+    width: 90%;
+    height: auto;
+  }
+  .item3 img {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .marca h3 {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  .marca img {
+    margin-bottom: 10px;
+    width: 40vw;
+    height: auto;
+  }
+  .marca p {
+    font-size: 25px;
+  }
+  .marca {
+    display: flex;
+    align-items: left;
+    text-align: left;
+  }
+  #fiatarg {
+    text-align: center;
+    font-size: 35px;
+  }
+  .contenedor {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-content: center;
+  }
+  .item {
+    align-items: center;
+    text-align: center;
+  }
+  .item1 img {
+    width: 32vw;
+    height: auto;
+  }
+  .item2 img {
+    width: 32vw;
+    height: auto;
+  }
+  .item3 img {
+    width: 32vw;
+    height: auto;
+  }
+}
+#elauto {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.contenedor2 {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat 3, auto;
+}
+
+.itemm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.itemm p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.fiat1 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.fiat2 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.fiat3 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  #elauto {
+    font-size: 55px;
+  }
+  .itemm p {
+    font-size: 25px;
+  }
+  .fiat1 img {
+    width: 70vw;
+  }
+  .fiat2 img {
+    width: 70vw;
+  }
+  .fiat3 img {
+    width: 70vw;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #elauto {
+    padding: 10px;
+    font-size: 40px;
+  }
+  .contenedor2 {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 1rem;
+  }
+  .itemm {
+    display: inline-flex;
+    text-align: left;
+    flex-direction: row;
+  }
+  .itemm p {
+    font-size: 2vw;
+  }
+  .fiat1 img {
+    width: 35vw;
+  }
+  .fiat2 img {
+    width: 35vw;
+  }
+  .fiat3 img {
+    width: 35vw;
+  }
+}
+#versiones {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contenedor3 {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat 3, auto;
+  font-size: 20px;
+}
+
+.itemmm {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.itemmm p {
+  margin-top: 10px;
+}
+
+.version1 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.version2 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.version3 img {
+  border-radius: 10px;
+  width: 80vw;
+  height: auto;
+}
+
+.contenedor4 {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat 2, auto;
+  font-size: 20px;
+}
+
+#videos {
+  text-align: center;
+}
+
+.video {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.video1 iframe {
+  margin-bottom: 10px;
+}
+
+.video2 iframe {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #versiones {
+    font-size: 40px;
+  }
+  .contenedor3 {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 20px;
+    grid-gap: 10px;
+  }
+  .itemmm {
+    align-items: center;
+    text-align: center;
+  }
+  .version1 img {
+    height: auto;
+    width: 30vw;
+  }
+  .version2 img {
+    height: auto;
+    width: 30vw;
+  }
+  .version3 img {
+    height: auto;
+    width: 30vw;
+  }
+  .contenedor4 {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+    grid-gap: 10px;
+  }
+  #videos {
+    margin-left: 10px;
+  }
+  .video {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+  }
+  .video1 {
+    margin-right: 10px;
+  }
+  .video2 {
+    margin-right: 10px;
+  }
+}
+label {
+  color: white;
+  margin-left: 10px;
+}
+
+#formularios input, textarea {
+  padding: 10px;
+  width: auto;
+}
+
+#somos {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+#contacto {
+  font-size: 30px;
+}
+
+#formularios {
+  padding: 10px;
+  width: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
