@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="media/imagenes/shortcut.png">
@@ -23,7 +24,8 @@
     </header>
     <main>
         <h1>El Fiat 128</h1>
-        <div class="inicio"> 
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-center" class="inicio"> 
             <img class="familia" src="media/imagenes/los 128.jpg" alt="los 128">
             <p id="presentacion">En esta web veremos mas en profundo, uno de los autos insignia de la marca en nuestro pais, Argentina. Te invito a conocer con nosotros todas sus caracteristicas, detalles, y curiosidades de este pequeño, pero gran guerrero de la marca.</p>
         </div>
@@ -39,5 +41,9 @@
             <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
