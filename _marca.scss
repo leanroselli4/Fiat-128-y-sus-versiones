@@ -1,0 +1,183 @@
+// Marca
+
+.marca{
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.marca h1{
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+.marca h2{
+    font-size: 38px;
+    text-decoration: underline;
+}
+
+.marca p{
+    padding: 10px;
+    font-size: 20px;
+    height: auto;
+}
+
+.marca img{
+    width: $medida1;
+    height: auto;
+}
+
+#fiatarg{
+    text-decoration: underline;
+    text-align: center;
+    color: $color3;
+    font-size: 35px;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.contenedor{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, auto);
+    grid-gap: 10px;
+}
+
+.contenedor p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.item{
+    align-items: center;
+    text-align: center;
+}
+
+.item1 img{
+    border-radius: 10px;
+    width: $medida1;
+    height: auto;
+}
+
+.item2 img{
+    border-radius: 10px;
+    width: $medida1;
+    height: auto;
+}
+
+.item3 img{
+    border-radius: 10px;
+    width: $medida1;
+    height: auto;
+}
+
+// Media Queries Marca
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .contenedor{
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+    
+    .contenedor p{
+        font-size: 25px;
+    }
+    
+    .marca h3{
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .marca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .marca p{
+        font-size: 25px;
+    }
+    
+    .marca img{
+        width: 500px;
+    }
+    
+    #fiatarg{
+        font-size: 40px;
+    }
+    
+    .item1 img{
+        width: 90%;
+    }
+    
+    .item2 img{
+        width: 90%;
+        height: auto;
+    }
+    
+    .item3 img{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .marca h3{
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    
+    .marca img{
+        margin-bottom: 10px;
+        width: 40vw;
+        height: auto;
+    }
+
+    .marca p{
+        font-size: 25px;
+    }
+    
+    .marca{
+        display: flex;
+        align-items: left;
+        text-align: left;
+    }
+    
+    #fiatarg{
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .contenedor{
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        align-content: center;
+    }
+    
+    .item{
+        align-items: center;
+        text-align: center;
+    }
+    
+    .item1 img{
+        width: 32vw;
+        height: auto;
+    }
+    
+    .item2 img{
+        width: 32vw;
+        height: auto;
+    }
+    
+    .item3 img{
+        width: 32vw;
+        height: auto;
+    }
+}

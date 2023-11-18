@@ -1,0 +1,107 @@
+// Vehiculo
+
+#elauto{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.contenedor2{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, auto);
+}
+
+.itemm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.itemm p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fiat1 img{
+    border-radius: 10px;
+    width: $medida1;
+    height: auto;
+}
+
+.fiat2 img{
+    border-radius: 10px;
+    width: $medida1;
+    height: auto;
+}
+
+.fiat3 img{
+    border-radius: 10px;
+    width: $medida1;
+    height: auto;
+}
+
+// Media Queries Vehiculo
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    #elauto{
+        font-size: 55px;
+    }
+    
+    .itemm p{
+        font-size: 25px;
+    }
+    
+    .fiat1 img{
+        width: 70vw;
+    }
+    
+    .fiat2 img{
+        width: 70vw;
+    }
+    
+    .fiat3 img{
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #elauto{
+        padding: 10px;
+        font-size: 40px;
+    }
+    
+    .contenedor2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 1rem;
+    }
+    
+    .itemm{
+        display: inline-flex;
+        text-align: left;
+        flex-direction: row;
+    }
+
+    .itemm p{
+        font-size: 2vw;
+    }
+    
+    .fiat1 img{
+        width: 35vw;
+    }
+    
+    .fiat2 img{
+        width: 35vw;
+    }
+    
+    .fiat3 img{
+        width: 35vw;
+    }
+}

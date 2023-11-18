@@ -1,0 +1,190 @@
+// Header
+
+header{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: $color3;
+}
+
+.logo{
+    padding-top: 1rem;
+    height: auto;
+    width: 250px;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 28px;
+    width: auto;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: $color2;
+}
+
+.nav-list a:hover{
+    color: $color1;
+    font-weight: bold;
+}
+
+// Footer
+
+footer{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: $color3;
+    padding: 0px;
+    margin: 0px;
+}
+
+#redes a{
+    font-size: 30px;
+    color: $color2;
+}
+
+.footer a{
+    text-decoration: none;
+    color: $color2;
+    font-size: 28px;
+    gap: 1rem;
+}
+
+.footer a:hover{
+    color: $color1;
+    font-weight: bold;
+}
+
+#redes a:hover{
+    color: $color1;
+    font-weight: bold;
+}
+
+// Media Queries Header y Footer
+
+@media only screen and (min-width: 767px) and (max-width: 1023px)  {
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .logo{
+        display: flex;
+        height: auto;
+        width: 740px;
+    }
+
+    .nav-list{
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+    
+    footer{
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #redes a{
+        font-size: 70px;
+    }
+    
+    .footer a{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header{
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: $color3;
+    }
+    
+    .logo{
+        padding: 10px;
+        height: 100px;
+        width: auto;
+    }
+    
+    .nav-list{
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: row;
+        font-size: 30px;
+        gap: 1rem;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: $color2;
+    }
+    
+    .nav-list a:hover{
+        color: $color1;
+        font-weight: bold;
+    }
+
+    footer{
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #redes a{
+        margin-right: 15px;
+        font-size: 30px;
+        float: right;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    
+    .footer a:hover{
+        color: $color1;
+        font-weight: bold;
+    }
+    
+    #redes a:hover{
+        color: $color1;
+        font-weight: bold;
+    }
+}
